@@ -1,0 +1,5 @@
+.idea
+.vagrant
+.env
+cros-up.iml
+env-*

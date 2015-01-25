@@ -1,0 +1,3 @@
+Defaults !tty_tickets # Entering your password in one shell affects all shells
+Defaults timestamp_timeout=180 # Minutes between re-requesting your password
+{{ salt['pillar.get']('build_user') }} ALL=(ALL) NOPASSWD:ALL

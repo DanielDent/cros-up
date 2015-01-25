@@ -1,0 +1,5 @@
+[user]
+	name = {{ salt['pillar.get']('git:name') }}
+	email = {{ salt['pillar.get']('git:email') }}
+[color]
+	ui = auto
